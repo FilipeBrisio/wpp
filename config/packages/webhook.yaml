@@ -1,0 +1,6 @@
+framework:
+  webhook:
+    routing:
+      messagem:
+        service: App\Webhook\MessagemRequestParser
+        secret: your_secret_here

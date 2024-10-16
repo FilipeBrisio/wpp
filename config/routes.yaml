@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# webhook_mensagem:
+#     path: /webhook/mensagem
+#     methods: [POST]
+#     controller: 'App\Webhook\MessagemRequestParser::handleWebhook'

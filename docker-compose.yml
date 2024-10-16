@@ -1,0 +1,47 @@
+services:
+  delbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: delbot
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - evolution_api
+      - mongo
+
+  evolution_api:
+    image: atendai/evolution-api:latest
+    container_name: evolutionapi
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - evolution_instances:/evolution/instances
+
+  mongo:
+    image: mongo:latest
+    container_name: DelDiala
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "81:81"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./path/to/your/app:/var/www/html
+    depends_on:
+      - delbot
+
+volumes:
+  mongo_data:
+  evolution_instances:

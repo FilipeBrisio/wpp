@@ -1,0 +1,617 @@
+t=2024-07-03T13:37:05-0300 lvl=info msg="no configuration paths supplied"
+t=2024-07-03T13:37:05-0300 lvl=info msg="using configuration at default config path" path=C:\\Users\\FilipeSouza\\AppData\\Local/ngrok/ngrok.yml
+t=2024-07-03T13:37:05-0300 lvl=info msg="open config file" path=C:\\Users\\FilipeSouza\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2024-07-03T13:37:05-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2024-07-03T13:37:07-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2024-07-03T13:37:07-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-07-03T13:37:07-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8000 url=https://dc27-189-38-98-141.ngrok-free.app
+t=2024-07-03T13:39:09-0300 lvl=info msg="join connections" obj=join id=659d28a9ac6c l=[::1]:8000 r=189.38.98.141:28436
+t=2024-07-03T13:39:34-0300 lvl=info msg="Got quit command" obj=consoleui
+t=2024-07-03T13:39:34-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2024-07-03T13:39:34-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2024-07-03T13:39:34-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=989fb7b58855 err="reconnecting session closed"
+t=2024-07-03T13:39:34-0300 lvl=info msg="no more state changes" obj=tunnels.session
+t=2024-07-03T13:39:34-0300 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=04062e0a1617f6a00a1b5526a9c95fdc
+t=2024-07-03T13:39:34-0300 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2024-07-03T13:39:34-0300 lvl=warn msg="Error restarting forwarder" name=command_line err="failed to start tunnel: session closed"
+t=2024-07-03T13:39:49-0300 lvl=info msg="no configuration paths supplied"
+t=2024-07-03T13:39:49-0300 lvl=info msg="using configuration at default config path" path=C:\\Users\\FilipeSouza\\AppData\\Local/ngrok/ngrok.yml
+t=2024-07-03T13:39:49-0300 lvl=info msg="open config file" path=C:\\Users\\FilipeSouza\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2024-07-03T13:39:49-0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2024-07-03T13:39:50-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2024-07-03T13:39:50-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-07-03T13:39:50-0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8000 url=https://94e7-189-38-98-141.ngrok-free.app
+t=2024-07-03T13:42:22-0300 lvl=info msg="join connections" obj=join id=409d1fdb2b90 l=[::1]:8000 r=189.38.98.141:8431
+t=2024-07-03T13:42:24-0300 lvl=info msg="join connections" obj=join id=c5c46f8fb8a1 l=[::1]:8000 r=189.38.98.141:49367
+t=2024-07-03T13:42:49-0300 lvl=info msg="join connections" obj=join id=e643ca45e801 l=[::1]:8000 r=189.38.98.141:11164
+t=2024-07-03T13:43:00-0300 lvl=info msg="join connections" obj=join id=ffd4a7e79079 l=[::1]:8000 r=189.38.98.141:42628
+t=2024-07-03T13:43:30-0300 lvl=info msg="join connections" obj=join id=34708e99bf66 l=[::1]:8000 r=189.38.98.141:1410
+t=2024-07-03T13:45:19-0300 lvl=info msg="join connections" obj=join id=ec631162c50d l=[::1]:8000 r=189.38.98.141:24973
+t=2024-07-03T13:45:19-0300 lvl=info msg="join connections" obj=join id=f3d415aac289 l=[::1]:8000 r=189.38.98.141:9052
+t=2024-07-03T13:45:19-0300 lvl=info msg="join connections" obj=join id=e26b17a2ccca l=[::1]:8000 r=189.38.98.141:32443
+t=2024-07-03T13:49:25-0300 lvl=info msg="join connections" obj=join id=835cf0d50c84 l=[::1]:8000 r=189.38.98.141:13094
+t=2024-07-03T13:49:25-0300 lvl=info msg="join connections" obj=join id=76a3f9500af7 l=[::1]:8000 r=189.38.98.141:20983
+t=2024-07-03T13:49:25-0300 lvl=info msg="join connections" obj=join id=431bf0c17d86 l=[::1]:8000 r=189.38.98.141:43694
+t=2024-07-03T13:49:25-0300 lvl=info msg="join connections" obj=join id=82396b20abb8 l=[::1]:8000 r=189.38.98.141:20432
+t=2024-07-03T13:49:37-0300 lvl=info msg="join connections" obj=join id=2eb9ca5931ee l=[::1]:8000 r=189.38.98.141:46283
+t=2024-07-03T13:49:37-0300 lvl=info msg="join connections" obj=join id=44188796b8d2 l=[::1]:8000 r=189.38.98.141:34083
+t=2024-07-03T13:49:37-0300 lvl=info msg="join connections" obj=join id=1f490769a09c l=[::1]:8000 r=189.38.98.141:26566
+t=2024-07-03T13:49:37-0300 lvl=info msg="join connections" obj=join id=c4a1bc90fa5e l=[::1]:8000 r=189.38.98.141:23341
+t=2024-07-03T13:49:37-0300 lvl=info msg="join connections" obj=join id=de97d90ad91d l=[::1]:8000 r=189.38.98.141:29075
+t=2024-07-03T13:49:48-0300 lvl=info msg="join connections" obj=join id=f650f009f060 l=[::1]:8000 r=189.38.98.141:51879
+t=2024-07-03T13:55:31-0300 lvl=warn msg="failed to open private leg" id=9dff0f7c1009 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T13:55:31-0300 lvl=warn msg="failed to open private leg" id=78b80e8e1422 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T13:55:31-0300 lvl=warn msg="failed to open private leg" id=3bac9c435a51 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T13:57:15-0300 lvl=info msg="join connections" obj=join id=f225611c40f9 l=[::1]:8000 r=189.38.98.141:49737
+t=2024-07-03T13:57:15-0300 lvl=info msg="join connections" obj=join id=c080037f2ddb l=[::1]:8000 r=189.38.98.141:22228
+t=2024-07-03T13:57:15-0300 lvl=info msg="join connections" obj=join id=0fde5f3434d7 l=[::1]:8000 r=189.38.98.141:21779
+t=2024-07-03T13:57:46-0300 lvl=info msg="join connections" obj=join id=40bac7c17086 l=[::1]:8000 r=189.38.98.141:8431
+t=2024-07-03T13:57:47-0300 lvl=info msg="join connections" obj=join id=743829623f2f l=[::1]:8000 r=189.38.98.141:27213
+t=2024-07-03T14:02:26-0300 lvl=info msg="join connections" obj=join id=aa51d39adc9c l=[::1]:8000 r=189.38.98.141:1538
+t=2024-07-03T14:02:27-0300 lvl=info msg="join connections" obj=join id=1316b759f036 l=[::1]:8000 r=189.38.98.141:34287
+t=2024-07-03T14:02:27-0300 lvl=info msg="join connections" obj=join id=1567f990606c l=[::1]:8000 r=189.38.98.141:49614
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/ id=f7af9fe5d6872f06
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/ id=f7af9fe5d6872f06 status=302 dur=4.4538ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/inspect/http id=0161ec823eab08c4
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/inspect/http id=0161ec823eab08c4 status=200 dur=4.4568ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/css/app.adf18cf630a45f8cb520.css id=541010729985fdb7
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/js/vendor.f94661fb4ae01d20d008.js id=e3816db6710f4a36
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/js/rpx.60aca2c0a02bf47c2824.js id=9475b589120d3aa4
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/js/rpx.60aca2c0a02bf47c2824.js id=9475b589120d3aa4 status=200 dur=165.4013ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/css/app.adf18cf630a45f8cb520.css id=541010729985fdb7 status=200 dur=314.7324ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/js/app.17cf954b2a477a65fb75.js id=5c76d433b21cc7e9
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/js/app.17cf954b2a477a65fb75.js id=5c76d433b21cc7e9 status=200 dur=1.7548ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/js/vendor.f94661fb4ae01d20d008.js id=e3816db6710f4a36 status=200 dur=311.0453ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=c0926d8f104574c8
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/grpc/agent.Web/State id=be14c6f632dc08d6
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=c0926d8f104574c8 status=200 dur=24.5194ms
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/assets/glyphicons-halflings-regular.woff2 id=7bf2e9d762f4498c
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/assets/glyphicons-halflings-regular.woff2 id=7bf2e9d762f4498c status=404 dur=0s
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/assets/glyphicons-halflings-regular.woff id=a2c17957d9517448
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/assets/glyphicons-halflings-regular.woff id=a2c17957d9517448 status=404 dur=687.4µs
+t=2024-07-03T14:04:58-0300 lvl=info msg=start pg=/static/assets/glyphicons-halflings-regular.ttf id=1b2bf9651dd2b6f3
+t=2024-07-03T14:04:58-0300 lvl=info msg=end pg=/static/assets/glyphicons-halflings-regular.ttf id=1b2bf9651dd2b6f3 status=404 dur=965.1µs
+t=2024-07-03T14:04:59-0300 lvl=info msg=start pg=/static/favicon.ico id=868822cefd9efff0
+t=2024-07-03T14:04:59-0300 lvl=info msg=end pg=/static/favicon.ico id=868822cefd9efff0 status=200 dur=1.033ms
+t=2024-07-03T14:05:51-0300 lvl=info msg="join connections" obj=join id=d8594bbd5014 l=[::1]:8000 r=189.38.98.141:33371
+t=2024-07-03T14:05:51-0300 lvl=info msg="join connections" obj=join id=43a8d3de8d12 l=[::1]:8000 r=189.38.98.141:36425
+t=2024-07-03T14:05:51-0300 lvl=info msg="join connections" obj=join id=e1c0e3ef594f l=[::1]:8000 r=189.38.98.141:32417
+t=2024-07-03T14:07:23-0300 lvl=info msg="join connections" obj=join id=62f8f98d42db l=[::1]:8000 r=189.38.98.141:41779
+t=2024-07-03T14:07:23-0300 lvl=info msg="join connections" obj=join id=a2f7530287f2 l=[::1]:8000 r=189.38.98.141:22508
+t=2024-07-03T14:07:23-0300 lvl=info msg="join connections" obj=join id=1c3bb7ccd2ab l=[::1]:8000 r=189.38.98.141:50806
+t=2024-07-03T14:07:23-0300 lvl=info msg="join connections" obj=join id=26f004e12763 l=[::1]:8000 r=189.38.98.141:22585
+t=2024-07-03T14:09:21-0300 lvl=info msg="join connections" obj=join id=c332e1105f6a l=[::1]:8000 r=189.38.98.141:45623
+t=2024-07-03T14:09:22-0300 lvl=info msg="join connections" obj=join id=870cbf0c9321 l=[::1]:8000 r=189.38.98.141:17368
+t=2024-07-03T14:11:21-0300 lvl=info msg=start pg=/grpc/agent.Web/Clear id=3e4720bf641e4c60
+t=2024-07-03T14:11:21-0300 lvl=info msg=end pg=/grpc/agent.Web/Clear id=3e4720bf641e4c60 status=200 dur=29.1229ms
+t=2024-07-03T14:11:27-0300 lvl=info msg="join connections" obj=join id=add1d217fac3 l=[::1]:8000 r=189.38.98.141:18301
+t=2024-07-03T14:12:50-0300 lvl=info msg="join connections" obj=join id=5d917443b338 l=[::1]:8000 r=189.38.98.141:47201
+t=2024-07-03T14:15:40-0300 lvl=info msg="join connections" obj=join id=1fc36bf0338f l=[::1]:8000 r=189.38.98.141:55224
+t=2024-07-03T14:15:52-0300 lvl=info msg="join connections" obj=join id=6927f7235c40 l=[::1]:8000 r=189.38.98.141:37255
+t=2024-07-03T14:16:02-0300 lvl=info msg=start pg=/grpc/agent.Web/Play id=4080a008f31c7188
+t=2024-07-03T14:16:02-0300 lvl=info msg="replaying request" id=airt_2ikG2IcToS7BTT44p093lCTEuFb tunnelName=command_line
+t=2024-07-03T14:16:02-0300 lvl=info msg="join connections" obj=join id=2d1ca5513576 l=[::1]:8000 r=nil
+t=2024-07-03T14:16:02-0300 lvl=info msg=end pg=/grpc/agent.Web/Play id=4080a008f31c7188 status=200 dur=136.4948ms
+t=2024-07-03T14:24:52-0300 lvl=info msg="join connections" obj=join id=3c1479d9eda7 l=[::1]:8000 r=189.38.98.141:2517
+t=2024-07-03T14:24:52-0300 lvl=info msg="join connections" obj=join id=7f4ad0e014ca l=[::1]:8000 r=189.38.98.141:64877
+t=2024-07-03T14:24:52-0300 lvl=info msg="join connections" obj=join id=fa0e182988bc l=[::1]:8000 r=189.38.98.141:60175
+t=2024-07-03T14:24:52-0300 lvl=info msg="join connections" obj=join id=52cec867cc76 l=[::1]:8000 r=189.38.98.141:34492
+t=2024-07-03T14:24:52-0300 lvl=info msg="join connections" obj=join id=f444c09002c4 l=[::1]:8000 r=189.38.98.141:24320
+t=2024-07-03T14:25:35-0300 lvl=info msg=start pg=/grpc/agent.Web/Play id=e435a44cdbe0ef0b
+t=2024-07-03T14:25:35-0300 lvl=info msg="replaying request" id=airt_2ikH86EqElGOJZlKmX3AAQXvHiW tunnelName=command_line
+t=2024-07-03T14:25:35-0300 lvl=info msg="join connections" obj=join id=eb59e4acbf21 l=[::1]:8000 r=nil
+t=2024-07-03T14:25:36-0300 lvl=info msg=end pg=/grpc/agent.Web/Play id=e435a44cdbe0ef0b status=200 dur=407.1903ms
+t=2024-07-03T14:25:46-0300 lvl=info msg="join connections" obj=join id=c4a052b5794e l=[::1]:8000 r=189.38.98.141:29077
+t=2024-07-03T14:27:09-0300 lvl=info msg="join connections" obj=join id=1a6ff9f8dc92 l=[::1]:8000 r=189.38.98.141:43041
+t=2024-07-03T14:29:06-0300 lvl=info msg="join connections" obj=join id=9472f4e6dbcf l=[::1]:8000 r=189.38.98.141:38791
+t=2024-07-03T14:29:53-0300 lvl=info msg="join connections" obj=join id=ae2a8887c434 l=[::1]:8000 r=189.38.98.141:8431
+t=2024-07-03T14:29:55-0300 lvl=info msg="join connections" obj=join id=362323180fbf l=[::1]:8000 r=189.38.98.141:49761
+t=2024-07-03T14:31:01-0300 lvl=info msg="join connections" obj=join id=8e4f67baccaa l=[::1]:8000 r=189.38.98.141:23247
+t=2024-07-03T14:32:33-0300 lvl=info msg="join connections" obj=join id=b57b65d2b61b l=[::1]:8000 r=189.38.98.141:21951
+t=2024-07-03T14:32:50-0300 lvl=info msg="join connections" obj=join id=487a0a7dde05 l=[::1]:8000 r=189.38.98.141:18227
+t=2024-07-03T14:32:57-0300 lvl=info msg="join connections" obj=join id=f46f4778ad58 l=[::1]:8000 r=189.38.98.141:42449
+t=2024-07-03T14:34:14-0300 lvl=info msg=start pg=/grpc/agent.Web/Clear id=022c4c09d75d2578
+t=2024-07-03T14:34:14-0300 lvl=info msg=end pg=/grpc/agent.Web/Clear id=022c4c09d75d2578 status=200 dur=506.3µs
+t=2024-07-03T14:34:20-0300 lvl=info msg="join connections" obj=join id=5a65319ccf9e l=[::1]:8000 r=189.38.98.141:46630
+t=2024-07-03T14:34:43-0300 lvl=info msg="join connections" obj=join id=0ce98f955170 l=[::1]:8000 r=189.38.98.141:61893
+t=2024-07-03T14:35:01-0300 lvl=info msg="join connections" obj=join id=c35732d24712 l=[::1]:8000 r=189.38.98.141:45182
+t=2024-07-03T14:36:23-0300 lvl=info msg="join connections" obj=join id=a866f0e93643 l=[::1]:8000 r=189.38.98.141:14868
+t=2024-07-03T14:37:02-0300 lvl=info msg="join connections" obj=join id=972e5e932c8b l=[::1]:8000 r=189.38.98.141:13141
+t=2024-07-03T14:37:05-0300 lvl=info msg="join connections" obj=join id=44fdf55851da l=[::1]:8000 r=189.38.98.141:38071
+t=2024-07-03T14:37:05-0300 lvl=info msg="join connections" obj=join id=19a225945ca2 l=[::1]:8000 r=189.38.98.141:1758
+t=2024-07-03T14:37:41-0300 lvl=info msg="join connections" obj=join id=ac10ea07a4a9 l=[::1]:8000 r=189.38.98.141:47104
+t=2024-07-03T14:42:16-0300 lvl=info msg="join connections" obj=join id=a600ed6551bb l=[::1]:8000 r=189.38.98.141:61501
+t=2024-07-03T14:46:14-0300 lvl=info msg="join connections" obj=join id=908bcd9533ea l=[::1]:8000 r=189.38.98.141:25160
+t=2024-07-03T14:47:18-0300 lvl=info msg="join connections" obj=join id=bf9b9da82c18 l=[::1]:8000 r=189.38.98.141:27203
+t=2024-07-03T14:50:48-0300 lvl=info msg="join connections" obj=join id=8a2ba9dac004 l=[::1]:8000 r=189.38.98.141:37258
+t=2024-07-03T14:56:03-0300 lvl=info msg="join connections" obj=join id=060a7dff75eb l=[::1]:8000 r=189.38.98.141:64369
+t=2024-07-03T14:56:03-0300 lvl=info msg="join connections" obj=join id=f4504b6b4349 l=[::1]:8000 r=189.38.98.141:42380
+t=2024-07-03T14:56:03-0300 lvl=info msg="join connections" obj=join id=befcda0010b5 l=[::1]:8000 r=189.38.98.141:2079
+t=2024-07-03T14:56:15-0300 lvl=info msg="join connections" obj=join id=a8983a03b2bf l=[::1]:8000 r=189.38.98.141:27837
+t=2024-07-03T14:56:39-0300 lvl=info msg="join connections" obj=join id=8cc4d963bc7b l=[::1]:8000 r=189.38.98.141:6956
+t=2024-07-03T14:56:39-0300 lvl=info msg="join connections" obj=join id=5f24f7a227c4 l=[::1]:8000 r=189.38.98.141:21695
+t=2024-07-03T14:56:56-0300 lvl=info msg="join connections" obj=join id=c8e124f842d1 l=[::1]:8000 r=189.38.98.141:27556
+t=2024-07-03T14:56:57-0300 lvl=info msg="join connections" obj=join id=efb4aef37ae4 l=[::1]:8000 r=189.38.98.141:9944
+t=2024-07-03T14:57:13-0300 lvl=info msg="join connections" obj=join id=0a0873938809 l=[::1]:8000 r=189.38.98.141:4033
+t=2024-07-03T14:57:22-0300 lvl=info msg="join connections" obj=join id=5aa0e16b0e5e l=[::1]:8000 r=189.38.98.141:51095
+t=2024-07-03T14:57:45-0300 lvl=info msg="join connections" obj=join id=dd71ca035288 l=[::1]:8000 r=189.38.98.141:43748
+t=2024-07-03T14:57:50-0300 lvl=info msg="join connections" obj=join id=4acd24813e76 l=[::1]:8000 r=189.38.98.141:11277
+t=2024-07-03T14:57:50-0300 lvl=info msg="join connections" obj=join id=307618294c13 l=[::1]:8000 r=189.38.98.141:47931
+t=2024-07-03T14:57:50-0300 lvl=info msg="join connections" obj=join id=abbd498fdb31 l=[::1]:8000 r=189.38.98.141:13685
+t=2024-07-03T14:57:50-0300 lvl=info msg="join connections" obj=join id=9e6f1fe2bc55 l=[::1]:8000 r=189.38.98.141:51892
+t=2024-07-03T14:57:50-0300 lvl=info msg="join connections" obj=join id=6ec1b6bcfc0f l=[::1]:8000 r=189.38.98.141:2802
+t=2024-07-03T14:58:25-0300 lvl=info msg="join connections" obj=join id=f622a735543b l=[::1]:8000 r=189.38.98.141:29397
+t=2024-07-03T14:58:32-0300 lvl=info msg="join connections" obj=join id=fcb831d117dd l=[::1]:8000 r=189.38.98.141:4051
+t=2024-07-03T14:58:38-0300 lvl=info msg="join connections" obj=join id=3033f9143224 l=[::1]:8000 r=189.38.98.141:28680
+t=2024-07-03T14:58:45-0300 lvl=info msg="join connections" obj=join id=9267e37f32ca l=[::1]:8000 r=189.38.98.141:7826
+t=2024-07-03T14:59:23-0300 lvl=info msg="join connections" obj=join id=f6446833aa17 l=[::1]:8000 r=189.38.98.141:53505
+t=2024-07-03T14:59:29-0300 lvl=info msg="join connections" obj=join id=c27a6b3470ce l=[::1]:8000 r=189.38.98.141:24790
+t=2024-07-03T14:59:29-0300 lvl=info msg="join connections" obj=join id=c7e369d5fb1e l=[::1]:8000 r=189.38.98.141:34458
+t=2024-07-03T15:00:50-0300 lvl=info msg="join connections" obj=join id=c3641a657b10 l=[::1]:8000 r=189.38.98.141:56597
+t=2024-07-03T15:04:41-0300 lvl=info msg="join connections" obj=join id=5f44f647b191 l=[::1]:8000 r=189.38.98.141:60732
+t=2024-07-03T15:04:42-0300 lvl=info msg="join connections" obj=join id=1a3ddc91dfc7 l=[::1]:8000 r=189.38.98.141:36589
+t=2024-07-03T15:06:17-0300 lvl=info msg="join connections" obj=join id=0699a335c987 l=[::1]:8000 r=189.38.98.141:32999
+t=2024-07-03T15:06:17-0300 lvl=info msg="join connections" obj=join id=cb09b813b5dd l=[::1]:8000 r=189.38.98.141:60989
+t=2024-07-03T15:06:26-0300 lvl=info msg="join connections" obj=join id=1142bfd99467 l=[::1]:8000 r=189.38.98.141:36898
+t=2024-07-03T15:07:11-0300 lvl=info msg="join connections" obj=join id=367b3a04ada9 l=[::1]:8000 r=189.38.98.141:65518
+t=2024-07-03T15:07:11-0300 lvl=info msg="join connections" obj=join id=20129a8b6dcf l=[::1]:8000 r=189.38.98.141:10527
+t=2024-07-03T15:07:35-0300 lvl=info msg="join connections" obj=join id=d4c00f47e59b l=[::1]:8000 r=189.38.98.141:65072
+t=2024-07-03T15:07:35-0300 lvl=info msg="join connections" obj=join id=9c0ae7d8802e l=[::1]:8000 r=189.38.98.141:54146
+t=2024-07-03T15:08:08-0300 lvl=info msg="join connections" obj=join id=4a89fa26a663 l=[::1]:8000 r=189.38.98.141:62464
+t=2024-07-03T15:08:08-0300 lvl=info msg="join connections" obj=join id=5a0e6ee6a995 l=[::1]:8000 r=189.38.98.141:19845
+t=2024-07-03T15:08:08-0300 lvl=info msg="join connections" obj=join id=bec5d1092ecd l=[::1]:8000 r=189.38.98.141:57606
+t=2024-07-03T15:08:08-0300 lvl=info msg="join connections" obj=join id=d8f5e7719e11 l=[::1]:8000 r=189.38.98.141:35532
+t=2024-07-03T15:08:08-0300 lvl=info msg="join connections" obj=join id=888944c9e13d l=[::1]:8000 r=189.38.98.141:42531
+t=2024-07-03T15:08:08-0300 lvl=info msg="join connections" obj=join id=32df6317d81b l=[::1]:8000 r=189.38.98.141:21716
+t=2024-07-03T15:08:34-0300 lvl=info msg="join connections" obj=join id=345d8959a10a l=[::1]:8000 r=189.38.98.141:29795
+t=2024-07-03T15:08:35-0300 lvl=info msg="join connections" obj=join id=2a0e788ad30d l=[::1]:8000 r=189.38.98.141:13372
+t=2024-07-03T15:08:35-0300 lvl=info msg="join connections" obj=join id=234c76366f22 l=[::1]:8000 r=189.38.98.141:60897
+t=2024-07-03T15:08:35-0300 lvl=info msg="join connections" obj=join id=4e323b0468a8 l=[::1]:8000 r=189.38.98.141:16534
+t=2024-07-03T15:08:35-0300 lvl=info msg="join connections" obj=join id=bd877ee53749 l=[::1]:8000 r=189.38.98.141:61772
+t=2024-07-03T15:08:51-0300 lvl=info msg="join connections" obj=join id=442f617b98f0 l=[::1]:8000 r=189.38.98.141:64328
+t=2024-07-03T15:09:04-0300 lvl=info msg="join connections" obj=join id=4b77292d7b4c l=[::1]:8000 r=189.38.98.141:24679
+t=2024-07-03T15:09:06-0300 lvl=info msg="join connections" obj=join id=aa8533683cae l=[::1]:8000 r=189.38.98.141:56647
+t=2024-07-03T15:09:12-0300 lvl=info msg="join connections" obj=join id=3f305cab3ab8 l=[::1]:8000 r=189.38.98.141:31069
+t=2024-07-03T15:09:21-0300 lvl=info msg="join connections" obj=join id=814a849660f6 l=[::1]:8000 r=189.38.98.141:30090
+t=2024-07-03T15:09:30-0300 lvl=info msg="join connections" obj=join id=1c7fea3d4746 l=[::1]:8000 r=189.38.98.141:30119
+t=2024-07-03T15:10:53-0300 lvl=info msg="join connections" obj=join id=a5cadd043425 l=[::1]:8000 r=189.38.98.141:58891
+t=2024-07-03T15:10:53-0300 lvl=info msg="join connections" obj=join id=36eeeb101dcb l=[::1]:8000 r=189.38.98.141:39522
+t=2024-07-03T15:11:06-0300 lvl=info msg="join connections" obj=join id=1fafbfa12a42 l=[::1]:8000 r=189.38.98.141:10488
+t=2024-07-03T15:11:07-0300 lvl=info msg="join connections" obj=join id=80e1034908e3 l=[::1]:8000 r=189.38.98.141:19232
+t=2024-07-03T15:11:12-0300 lvl=info msg="join connections" obj=join id=acbba63297fa l=[::1]:8000 r=189.38.98.141:55310
+t=2024-07-03T15:14:07-0300 lvl=info msg="join connections" obj=join id=e9346eb5f453 l=[::1]:8000 r=189.38.98.141:39116
+t=2024-07-03T15:14:18-0300 lvl=info msg="join connections" obj=join id=6eb834159240 l=[::1]:8000 r=189.38.98.141:22045
+t=2024-07-03T15:14:20-0300 lvl=info msg="join connections" obj=join id=42409615d2dd l=[::1]:8000 r=189.38.98.141:50480
+t=2024-07-03T15:14:31-0300 lvl=info msg="join connections" obj=join id=247d8adaa1fc l=[::1]:8000 r=189.38.98.141:42278
+t=2024-07-03T15:14:51-0300 lvl=info msg="join connections" obj=join id=b5d5159e63bf l=[::1]:8000 r=189.38.98.141:12060
+t=2024-07-03T15:15:01-0300 lvl=info msg="join connections" obj=join id=aace1d2b0642 l=[::1]:8000 r=189.38.98.141:47454
+t=2024-07-03T15:15:09-0300 lvl=info msg="join connections" obj=join id=9d6c796a6972 l=[::1]:8000 r=189.38.98.141:31503
+t=2024-07-03T15:16:09-0300 lvl=info msg="join connections" obj=join id=132140f84c32 l=[::1]:8000 r=189.38.98.141:3611
+t=2024-07-03T15:18:11-0300 lvl=info msg="join connections" obj=join id=22e6965dc75f l=[::1]:8000 r=189.38.98.141:64223
+t=2024-07-03T15:19:40-0300 lvl=info msg="join connections" obj=join id=ac8a754a9b84 l=[::1]:8000 r=189.38.98.141:25906
+t=2024-07-03T15:19:51-0300 lvl=info msg="join connections" obj=join id=ded630e8e077 l=[::1]:8000 r=189.38.98.141:1059
+t=2024-07-03T15:20:11-0300 lvl=info msg="join connections" obj=join id=9ffdc97113fe l=[::1]:8000 r=189.38.98.141:36969
+t=2024-07-03T15:20:40-0300 lvl=info msg="join connections" obj=join id=6a32f110cc9e l=[::1]:8000 r=189.38.98.141:27741
+t=2024-07-03T15:21:07-0300 lvl=info msg="join connections" obj=join id=cad05a07e34f l=[::1]:8000 r=189.38.98.141:65271
+t=2024-07-03T15:21:20-0300 lvl=info msg="join connections" obj=join id=adf8ad855dc6 l=[::1]:8000 r=189.38.98.141:61364
+t=2024-07-03T15:21:29-0300 lvl=info msg="join connections" obj=join id=f9b2f5b609d7 l=[::1]:8000 r=189.38.98.141:24362
+t=2024-07-03T15:21:37-0300 lvl=info msg="join connections" obj=join id=f285f07ba0f9 l=[::1]:8000 r=189.38.98.141:5662
+t=2024-07-03T15:21:45-0300 lvl=info msg="join connections" obj=join id=32f9c88ade30 l=[::1]:8000 r=189.38.98.141:2019
+t=2024-07-03T15:22:03-0300 lvl=info msg="join connections" obj=join id=cd81a96ec782 l=[::1]:8000 r=189.38.98.141:2513
+t=2024-07-03T15:22:20-0300 lvl=info msg="join connections" obj=join id=0255a9f31924 l=[::1]:8000 r=189.38.98.141:39575
+t=2024-07-03T15:22:51-0300 lvl=info msg="join connections" obj=join id=93121c223efd l=[::1]:8000 r=189.38.98.141:2843
+t=2024-07-03T15:22:51-0300 lvl=info msg="join connections" obj=join id=401418d5cd2e l=[::1]:8000 r=189.38.98.141:51795
+t=2024-07-03T15:23:16-0300 lvl=info msg="join connections" obj=join id=1729e2a36c6b l=[::1]:8000 r=189.38.98.141:24158
+t=2024-07-03T15:23:28-0300 lvl=info msg="join connections" obj=join id=2645a1efef48 l=[::1]:8000 r=189.38.98.141:49584
+t=2024-07-03T15:23:43-0300 lvl=info msg="join connections" obj=join id=faee8b35511a l=[::1]:8000 r=189.38.98.141:54669
+t=2024-07-03T15:24:42-0300 lvl=info msg="join connections" obj=join id=16208f139ff6 l=[::1]:8000 r=189.38.98.141:17603
+t=2024-07-03T15:24:54-0300 lvl=info msg="join connections" obj=join id=98ba23801c4f l=[::1]:8000 r=189.38.98.141:63187
+t=2024-07-03T15:25:15-0300 lvl=info msg="join connections" obj=join id=3f3aceec790e l=[::1]:8000 r=189.38.98.141:15117
+t=2024-07-03T15:25:26-0300 lvl=info msg="join connections" obj=join id=60c8d6d93c0f l=[::1]:8000 r=189.38.98.141:13203
+t=2024-07-03T15:25:45-0300 lvl=info msg="join connections" obj=join id=b07fc5512808 l=[::1]:8000 r=189.38.98.141:59575
+t=2024-07-03T15:26:05-0300 lvl=info msg="join connections" obj=join id=a5073b64a853 l=[::1]:8000 r=189.38.98.141:2339
+t=2024-07-03T15:26:11-0300 lvl=info msg="join connections" obj=join id=59b9326394eb l=[::1]:8000 r=189.38.98.141:38911
+t=2024-07-03T15:26:20-0300 lvl=info msg="join connections" obj=join id=998153689162 l=[::1]:8000 r=189.38.98.141:17341
+t=2024-07-03T15:26:31-0300 lvl=info msg="join connections" obj=join id=a474dff26b42 l=[::1]:8000 r=189.38.98.141:59092
+t=2024-07-03T15:26:44-0300 lvl=info msg="join connections" obj=join id=2b4b4ccce3c7 l=[::1]:8000 r=189.38.98.141:62860
+t=2024-07-03T15:26:53-0300 lvl=info msg="join connections" obj=join id=6f72fa88d6c0 l=[::1]:8000 r=189.38.98.141:44629
+t=2024-07-03T15:27:00-0300 lvl=info msg="join connections" obj=join id=b878f3b71d0e l=[::1]:8000 r=189.38.98.141:15545
+t=2024-07-03T15:27:13-0300 lvl=info msg="join connections" obj=join id=0746a7d08a6e l=[::1]:8000 r=189.38.98.141:38557
+t=2024-07-03T15:27:19-0300 lvl=info msg="join connections" obj=join id=ae638e1dc447 l=[::1]:8000 r=189.38.98.141:43773
+t=2024-07-03T15:27:34-0300 lvl=info msg="join connections" obj=join id=97161fabce59 l=[::1]:8000 r=189.38.98.141:15159
+t=2024-07-03T15:27:41-0300 lvl=info msg="join connections" obj=join id=e25133516cfe l=[::1]:8000 r=189.38.98.141:61135
+t=2024-07-03T15:27:48-0300 lvl=info msg="join connections" obj=join id=66a6692800c7 l=[::1]:8000 r=189.38.98.141:1824
+t=2024-07-03T15:27:50-0300 lvl=info msg="join connections" obj=join id=7dbd93fb9bdc l=[::1]:8000 r=189.38.98.141:17648
+t=2024-07-03T15:27:58-0300 lvl=info msg="join connections" obj=join id=af3b6119b29b l=[::1]:8000 r=189.38.98.141:11812
+t=2024-07-03T15:28:11-0300 lvl=info msg="join connections" obj=join id=67f13f8b9c42 l=[::1]:8000 r=189.38.98.141:35713
+t=2024-07-03T15:28:26-0300 lvl=info msg="join connections" obj=join id=32a32070bf88 l=[::1]:8000 r=189.38.98.141:36493
+t=2024-07-03T15:28:41-0300 lvl=info msg="join connections" obj=join id=718b60eacfce l=[::1]:8000 r=189.38.98.141:25093
+t=2024-07-03T15:28:51-0300 lvl=info msg="join connections" obj=join id=4e8e0d8274d5 l=[::1]:8000 r=189.38.98.141:52040
+t=2024-07-03T15:29:06-0300 lvl=info msg="join connections" obj=join id=952c75edcc60 l=[::1]:8000 r=189.38.98.141:6463
+t=2024-07-03T15:29:17-0300 lvl=info msg="join connections" obj=join id=c81bb2b86898 l=[::1]:8000 r=189.38.98.141:24689
+t=2024-07-03T15:29:21-0300 lvl=info msg="join connections" obj=join id=00c1cec61230 l=[::1]:8000 r=189.38.98.141:59663
+t=2024-07-03T15:29:48-0300 lvl=info msg="join connections" obj=join id=9d59d7c4da46 l=[::1]:8000 r=189.38.98.141:38780
+t=2024-07-03T15:29:55-0300 lvl=info msg="join connections" obj=join id=757b51729af1 l=[::1]:8000 r=189.38.98.141:65363
+t=2024-07-03T15:30:32-0300 lvl=info msg="join connections" obj=join id=eb4731f23eb2 l=[::1]:8000 r=189.38.98.141:33232
+t=2024-07-03T15:30:51-0300 lvl=info msg="join connections" obj=join id=5a90c3a570e9 l=[::1]:8000 r=189.38.98.141:3451
+t=2024-07-03T15:30:59-0300 lvl=info msg="join connections" obj=join id=b349b5c69b22 l=[::1]:8000 r=189.38.98.141:13268
+t=2024-07-03T15:31:12-0300 lvl=info msg="join connections" obj=join id=515b5b0e9dac l=[::1]:8000 r=189.38.98.141:63579
+t=2024-07-03T15:31:32-0300 lvl=info msg="join connections" obj=join id=16d7cab8f40f l=[::1]:8000 r=189.38.98.141:12364
+t=2024-07-03T15:31:45-0300 lvl=info msg="join connections" obj=join id=a39a79d4b8b4 l=[::1]:8000 r=189.38.98.141:49368
+t=2024-07-03T15:31:55-0300 lvl=info msg="join connections" obj=join id=d975375e5585 l=[::1]:8000 r=189.38.98.141:11695
+t=2024-07-03T15:31:55-0300 lvl=info msg="join connections" obj=join id=35595dd577af l=[::1]:8000 r=189.38.98.141:38971
+t=2024-07-03T15:32:33-0300 lvl=info msg="join connections" obj=join id=1bd5f19e09fe l=[::1]:8000 r=189.38.98.141:21471
+t=2024-07-03T15:51:49-0300 lvl=warn msg="failed to open private leg" id=f18c5eabdef1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:52:10-0300 lvl=warn msg="failed to open private leg" id=6b4bf0ccbc73 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:52:12-0300 lvl=warn msg="failed to open private leg" id=3252cfd8eeda privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:52:19-0300 lvl=warn msg="failed to open private leg" id=91fcccdaca74 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:55:57-0300 lvl=warn msg="failed to open private leg" id=234176cbcb9d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:07-0300 lvl=warn msg="failed to open private leg" id=54cc44b95037 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:14-0300 lvl=warn msg="failed to open private leg" id=018e28a5799d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:14-0300 lvl=warn msg="failed to open private leg" id=4bde218ed1c7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:27-0300 lvl=warn msg="failed to open private leg" id=236082b8f4b1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:50-0300 lvl=warn msg="failed to open private leg" id=75adea8a69ed privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:51-0300 lvl=warn msg="failed to open private leg" id=17a67c51cf24 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:51-0300 lvl=warn msg="failed to open private leg" id=30286a39c935 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:56:51-0300 lvl=warn msg="failed to open private leg" id=c180f34271d3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:57:22-0300 lvl=warn msg="failed to open private leg" id=d9f9c7e866c7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:57:24-0300 lvl=warn msg="failed to open private leg" id=267c15889bb5 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:57:25-0300 lvl=warn msg="failed to open private leg" id=3576618a52f7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:57:26-0300 lvl=warn msg="failed to open private leg" id=166ba08aa902 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:57:46-0300 lvl=warn msg="failed to open private leg" id=9d216e5a4c9a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:58:03-0300 lvl=warn msg="failed to open private leg" id=2a55f3378138 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:58:20-0300 lvl=warn msg="failed to open private leg" id=9aa64fb47050 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:58:32-0300 lvl=warn msg="failed to open private leg" id=b0d7ec36245f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:58:42-0300 lvl=warn msg="failed to open private leg" id=3a588579076c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:59:08-0300 lvl=warn msg="failed to open private leg" id=5b71ff0d5f04 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:59:21-0300 lvl=warn msg="failed to open private leg" id=15cfe6735608 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:59:31-0300 lvl=warn msg="failed to open private leg" id=2d6b0dee4992 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T15:59:58-0300 lvl=warn msg="failed to open private leg" id=9a065ee5277a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:00:19-0300 lvl=warn msg="failed to open private leg" id=cac0ec1c035b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:00:24-0300 lvl=warn msg="failed to open private leg" id=afd3b2a5ca48 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:00:35-0300 lvl=warn msg="failed to open private leg" id=a4446af85652 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:00:50-0300 lvl=warn msg="failed to open private leg" id=ebbbc2fc734f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:01:49-0300 lvl=warn msg="failed to open private leg" id=d9aaa7f2d9a2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:03-0300 lvl=warn msg="failed to open private leg" id=0b1a3a2b8c4f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:05-0300 lvl=warn msg="failed to open private leg" id=bdcd42d7d8b2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:09-0300 lvl=warn msg="failed to open private leg" id=6451b7dcaaba privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:12-0300 lvl=warn msg="failed to open private leg" id=e12114eaa01d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:20-0300 lvl=warn msg="failed to open private leg" id=210d6805a977 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:23-0300 lvl=warn msg="failed to open private leg" id=28af45a2ba40 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:26-0300 lvl=warn msg="failed to open private leg" id=8c36de30e581 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:35-0300 lvl=warn msg="failed to open private leg" id=b11736473de5 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:41-0300 lvl=warn msg="failed to open private leg" id=f4e26a5007b8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:02:54-0300 lvl=warn msg="failed to open private leg" id=a6ef57c11c7d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:03:26-0300 lvl=warn msg="failed to open private leg" id=c342d96ff721 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:04:06-0300 lvl=warn msg="failed to open private leg" id=ca4441e97670 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:04:19-0300 lvl=warn msg="failed to open private leg" id=fadb21cc93cc privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:04:42-0300 lvl=warn msg="failed to open private leg" id=8352ef843432 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:04:58-0300 lvl=warn msg="failed to open private leg" id=0180f26572cc privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:05:22-0300 lvl=warn msg="failed to open private leg" id=b5d909f6d5a2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:05:33-0300 lvl=warn msg="failed to open private leg" id=c888e200dff7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:05:34-0300 lvl=warn msg="failed to open private leg" id=2b48eb8755d2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:05:37-0300 lvl=warn msg="failed to open private leg" id=f7d767807aaa privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:05:48-0300 lvl=warn msg="failed to open private leg" id=1a3962735c10 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:06:03-0300 lvl=warn msg="failed to open private leg" id=2192940a5a26 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:06:09-0300 lvl=warn msg="failed to open private leg" id=af53003ec6f2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:06:13-0300 lvl=warn msg="failed to open private leg" id=d2951b6bdb5a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:06:18-0300 lvl=warn msg="failed to open private leg" id=ff3233627b27 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:06:22-0300 lvl=warn msg="failed to open private leg" id=d56ca9f2d283 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:07:09-0300 lvl=warn msg="failed to open private leg" id=54b09150eeaa privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:07:47-0300 lvl=warn msg="failed to open private leg" id=f906d8cfe49d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:07:48-0300 lvl=warn msg="failed to open private leg" id=916fa52c4c7c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:07:54-0300 lvl=warn msg="failed to open private leg" id=1c6fd7b699f0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:07:58-0300 lvl=warn msg="failed to open private leg" id=47cedec1e871 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:08:01-0300 lvl=warn msg="failed to open private leg" id=22141143871a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:08:03-0300 lvl=warn msg="failed to open private leg" id=2aae6bf89ac0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:08:19-0300 lvl=warn msg="failed to open private leg" id=df46430ef269 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:08:23-0300 lvl=warn msg="failed to open private leg" id=2a45ebd9b058 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:08:46-0300 lvl=warn msg="failed to open private leg" id=b0e70991274d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:08:54-0300 lvl=warn msg="failed to open private leg" id=a86f29c3a1e0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:03-0300 lvl=warn msg="failed to open private leg" id=f3f8c0607097 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:04-0300 lvl=warn msg="failed to open private leg" id=c9d2d8d536ce privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:12-0300 lvl=warn msg="failed to open private leg" id=a8bed3ac478a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:34-0300 lvl=warn msg="failed to open private leg" id=c90ae3e16bb8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:46-0300 lvl=warn msg="failed to open private leg" id=dd7ed75cf9c0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:50-0300 lvl=warn msg="failed to open private leg" id=cbd7b899bd21 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:09:52-0300 lvl=warn msg="failed to open private leg" id=32356e51ac51 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:10:04-0300 lvl=warn msg="failed to open private leg" id=78ef55ebfe8a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:10:05-0300 lvl=warn msg="failed to open private leg" id=b3c8daaa466a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:10:12-0300 lvl=warn msg="failed to open private leg" id=5e5be19598ae privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:10:15-0300 lvl=warn msg="failed to open private leg" id=516c0506292f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:10:25-0300 lvl=warn msg="failed to open private leg" id=e2f555f0a2c2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:11:19-0300 lvl=warn msg="failed to open private leg" id=48031dd39b51 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:11:42-0300 lvl=warn msg="failed to open private leg" id=ff3cda8c92c8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:11:45-0300 lvl=warn msg="failed to open private leg" id=9d619bf90aba privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:11:53-0300 lvl=warn msg="failed to open private leg" id=8af2e35e82c6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:11:59-0300 lvl=warn msg="failed to open private leg" id=a16c6ceb17fb privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:12:07-0300 lvl=warn msg="failed to open private leg" id=1a599989fefa privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:12:37-0300 lvl=warn msg="failed to open private leg" id=fde704b54b1a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:14:07-0300 lvl=warn msg="failed to open private leg" id=024ce8c44be1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:14:25-0300 lvl=warn msg="failed to open private leg" id=67b6de40e7b3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:14:28-0300 lvl=warn msg="failed to open private leg" id=d7e31d9396fa privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:15:54-0300 lvl=warn msg="failed to open private leg" id=8eb991dd8279 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:16:09-0300 lvl=warn msg="failed to open private leg" id=dd4c995bf5e3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:16:10-0300 lvl=warn msg="failed to open private leg" id=f588b9a7fc25 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:16:13-0300 lvl=warn msg="failed to open private leg" id=695729de7ca3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:16:27-0300 lvl=warn msg="failed to open private leg" id=6bd64ee1e1e2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:16:54-0300 lvl=warn msg="failed to open private leg" id=e048900356a1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:17:31-0300 lvl=warn msg="failed to open private leg" id=3f960ba1360a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:18:46-0300 lvl=warn msg="failed to open private leg" id=df49095ce375 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:19:37-0300 lvl=warn msg="failed to open private leg" id=f5ca6a554e4c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:19:40-0300 lvl=warn msg="failed to open private leg" id=c4599bebf34d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:19:41-0300 lvl=warn msg="failed to open private leg" id=34ca861af717 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:20:08-0300 lvl=warn msg="failed to open private leg" id=6120375736be privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:20:17-0300 lvl=warn msg="failed to open private leg" id=7806fd4bdf30 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:20:27-0300 lvl=warn msg="failed to open private leg" id=64a767b0bd19 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:05-0300 lvl=warn msg="failed to open private leg" id=3b6e4904cb2d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:18-0300 lvl=warn msg="failed to open private leg" id=d2f0083e5377 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:20-0300 lvl=warn msg="failed to open private leg" id=f79744e4cca7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:23-0300 lvl=warn msg="failed to open private leg" id=e84af5247fd1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:24-0300 lvl=warn msg="failed to open private leg" id=15e259483cf3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:30-0300 lvl=warn msg="failed to open private leg" id=7873c74ea5a8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:32-0300 lvl=warn msg="failed to open private leg" id=676f72305802 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:38-0300 lvl=warn msg="failed to open private leg" id=d5970e450290 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:43-0300 lvl=warn msg="failed to open private leg" id=5907421a12c6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:21:53-0300 lvl=warn msg="failed to open private leg" id=b05728062276 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:22:04-0300 lvl=warn msg="failed to open private leg" id=0e55fad3ba8f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:22:12-0300 lvl=warn msg="failed to open private leg" id=e76ad267e883 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:22:28-0300 lvl=warn msg="failed to open private leg" id=5d95b5a23356 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:22:40-0300 lvl=warn msg="failed to open private leg" id=809ffd966724 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:22:57-0300 lvl=warn msg="failed to open private leg" id=2ae9f4a8d625 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:04-0300 lvl=warn msg="failed to open private leg" id=d441407f5b5c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:17-0300 lvl=warn msg="failed to open private leg" id=aa24273a816e privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:23-0300 lvl=warn msg="failed to open private leg" id=9c8c4942b348 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:36-0300 lvl=warn msg="failed to open private leg" id=13a49534fa3a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:46-0300 lvl=warn msg="failed to open private leg" id=b9efa75f9115 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:51-0300 lvl=warn msg="failed to open private leg" id=ec4e405dd066 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:55-0300 lvl=warn msg="failed to open private leg" id=2a57dbee335c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:57-0300 lvl=warn msg="failed to open private leg" id=0b34bc9d646d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:23:57-0300 lvl=warn msg="failed to open private leg" id=1617c44570cd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:24:08-0300 lvl=warn msg="failed to open private leg" id=95f28fa2f9d6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:24:08-0300 lvl=warn msg="failed to open private leg" id=e2ff8fc4dbb6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:24:11-0300 lvl=warn msg="failed to open private leg" id=13a8f5a9c8df privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:24:12-0300 lvl=warn msg="failed to open private leg" id=019fc41c660a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:24:32-0300 lvl=warn msg="failed to open private leg" id=91f200790758 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:02-0300 lvl=warn msg="failed to open private leg" id=feb6d9e274d1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:08-0300 lvl=warn msg="failed to open private leg" id=8b3d7b36052b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:17-0300 lvl=warn msg="failed to open private leg" id=4dc6db738309 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:20-0300 lvl=warn msg="failed to open private leg" id=2d2d1d4f5406 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:22-0300 lvl=warn msg="failed to open private leg" id=c4c0f7c9e847 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:53-0300 lvl=warn msg="failed to open private leg" id=b3aa6b8ca1fa privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:25:55-0300 lvl=warn msg="failed to open private leg" id=8704ab97432f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:26:07-0300 lvl=warn msg="failed to open private leg" id=5d481d02a496 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:26:20-0300 lvl=warn msg="failed to open private leg" id=98a3f6085a99 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:26:26-0300 lvl=warn msg="failed to open private leg" id=b001511755d8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:26:51-0300 lvl=warn msg="failed to open private leg" id=feffa5f6f622 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:27:24-0300 lvl=warn msg="failed to open private leg" id=9f173bf8e6bc privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:27:49-0300 lvl=warn msg="failed to open private leg" id=fa989dcb0990 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:28:09-0300 lvl=warn msg="failed to open private leg" id=b493abf918b3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:42:33-0300 lvl=warn msg="failed to open private leg" id=a90e0864dd6b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:42:35-0300 lvl=warn msg="failed to open private leg" id=63e9411a3278 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:42:48-0300 lvl=warn msg="failed to open private leg" id=62eada84a880 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:42:54-0300 lvl=warn msg="failed to open private leg" id=31d302009b87 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:43:02-0300 lvl=warn msg="failed to open private leg" id=255fcc2fd224 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:43:08-0300 lvl=warn msg="failed to open private leg" id=03d62e193173 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:43:12-0300 lvl=warn msg="failed to open private leg" id=baf818dd7924 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:43:19-0300 lvl=warn msg="failed to open private leg" id=61d3dc58f80d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T16:58:52-0300 lvl=warn msg="failed to open private leg" id=953c165484ec privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:02:58-0300 lvl=warn msg="failed to open private leg" id=c043b80f5a62 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:04-0300 lvl=warn msg="failed to open private leg" id=93196ad75918 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:08-0300 lvl=warn msg="failed to open private leg" id=287701deff13 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:41-0300 lvl=warn msg="failed to open private leg" id=a91ef3be9966 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:42-0300 lvl=warn msg="failed to open private leg" id=29ba5d893d39 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:44-0300 lvl=warn msg="failed to open private leg" id=55868307d814 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:45-0300 lvl=warn msg="failed to open private leg" id=fd71412aaf0f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:50-0300 lvl=warn msg="failed to open private leg" id=7011fac4b81d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:03:53-0300 lvl=warn msg="failed to open private leg" id=4d731dcbda63 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:04:01-0300 lvl=warn msg="failed to open private leg" id=450ee64e009d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:04:03-0300 lvl=warn msg="failed to open private leg" id=4fefb3d57a75 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:04:06-0300 lvl=warn msg="failed to open private leg" id=09b5738ad2a6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:04:08-0300 lvl=warn msg="failed to open private leg" id=69b2adfb0973 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:04:18-0300 lvl=warn msg="failed to open private leg" id=baefa589f312 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:04:20-0300 lvl=warn msg="failed to open private leg" id=37bddd665f51 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:15:53-0300 lvl=warn msg="failed to open private leg" id=2631d9888118 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:16:26-0300 lvl=warn msg="failed to open private leg" id=2b4ee283d8f3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:23:41-0300 lvl=warn msg="failed to open private leg" id=b6f7b2bbf75d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:23:50-0300 lvl=warn msg="failed to open private leg" id=5fa205857996 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:24:04-0300 lvl=warn msg="failed to open private leg" id=548d42e32eb8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:24:55-0300 lvl=warn msg="failed to open private leg" id=109929404509 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:28:49-0300 lvl=warn msg="failed to open private leg" id=230b208a17cf privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:31:27-0300 lvl=warn msg="failed to open private leg" id=67db9602edfd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:31:30-0300 lvl=warn msg="failed to open private leg" id=8385378eee6f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:31:35-0300 lvl=warn msg="failed to open private leg" id=8269d64c05ac privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:31:44-0300 lvl=warn msg="failed to open private leg" id=26dc562853f7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:31:50-0300 lvl=warn msg="failed to open private leg" id=e878094253f5 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:07-0300 lvl=warn msg="failed to open private leg" id=a01b04d6dc9b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:10-0300 lvl=warn msg="failed to open private leg" id=355d47a6be61 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:15-0300 lvl=warn msg="failed to open private leg" id=97763790585b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:15-0300 lvl=warn msg="failed to open private leg" id=7410f1905c88 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:16-0300 lvl=warn msg="failed to open private leg" id=6c1e90c56b16 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:20-0300 lvl=warn msg="failed to open private leg" id=ffc3e47a94d7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:22-0300 lvl=warn msg="failed to open private leg" id=6fff2bf24372 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:26-0300 lvl=warn msg="failed to open private leg" id=f40bcf7cb4c3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:36-0300 lvl=warn msg="failed to open private leg" id=9b01709de15c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:32:39-0300 lvl=warn msg="failed to open private leg" id=7438d292825c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:33:52-0300 lvl=warn msg="failed to open private leg" id=c878fb405959 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:33:53-0300 lvl=warn msg="failed to open private leg" id=a12d5a28edfd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:33:57-0300 lvl=warn msg="failed to open private leg" id=095c695ab76f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:41:15-0300 lvl=warn msg="failed to open private leg" id=bf3daf5c1893 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:41:16-0300 lvl=warn msg="failed to open private leg" id=5fbf0cf256c4 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:45:16-0300 lvl=warn msg="failed to open private leg" id=4c7afbefcc8d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:45:23-0300 lvl=warn msg="failed to open private leg" id=9b8563c8e925 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:45:26-0300 lvl=warn msg="failed to open private leg" id=c2b3d67f80e6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:45:28-0300 lvl=warn msg="failed to open private leg" id=39aa63b248e7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:45:31-0300 lvl=warn msg="failed to open private leg" id=9f455745aafe privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:47:45-0300 lvl=warn msg="failed to open private leg" id=c54c1412be9b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:53:37-0300 lvl=warn msg="failed to open private leg" id=dbc6202d1564 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T17:56:30-0300 lvl=warn msg="failed to open private leg" id=5786246d68fe privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T19:19:51-0300 lvl=warn msg="failed to open private leg" id=8f4ec1bb32a6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T19:21:59-0300 lvl=warn msg="failed to open private leg" id=e995369fba43 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T19:22:04-0300 lvl=warn msg="failed to open private leg" id=5ffdc5d5f6b8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T19:22:05-0300 lvl=warn msg="failed to open private leg" id=31e8bebc9cf4 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T19:22:10-0300 lvl=warn msg="failed to open private leg" id=432022f689d7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:41:13-0300 lvl=warn msg="failed to open private leg" id=74c1728217ab privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:41:36-0300 lvl=warn msg="failed to open private leg" id=0d8e35dc6e30 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:41:37-0300 lvl=warn msg="failed to open private leg" id=4226254a748c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:41:47-0300 lvl=warn msg="failed to open private leg" id=5234624aa905 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:42:09-0300 lvl=warn msg="failed to open private leg" id=253053f403f0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:42:12-0300 lvl=warn msg="failed to open private leg" id=a0a27c57a315 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:42:51-0300 lvl=warn msg="failed to open private leg" id=4c28f0819dd1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:00-0300 lvl=warn msg="failed to open private leg" id=985bb39d6e68 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:07-0300 lvl=warn msg="failed to open private leg" id=b37200e8d5f0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:34-0300 lvl=warn msg="failed to open private leg" id=108f1701f962 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:45-0300 lvl=warn msg="failed to open private leg" id=e1096c4f7eef privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:49-0300 lvl=warn msg="failed to open private leg" id=7c425573d2a0 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:56-0300 lvl=warn msg="failed to open private leg" id=cffac3fd00f2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:57-0300 lvl=warn msg="failed to open private leg" id=3fc3be508b7e privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:43:58-0300 lvl=warn msg="failed to open private leg" id=5cd8b1131839 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:44:01-0300 lvl=warn msg="failed to open private leg" id=a0c91a0d6276 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:44:03-0300 lvl=warn msg="failed to open private leg" id=5734b33ad547 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:44:17-0300 lvl=warn msg="failed to open private leg" id=6dd4f912a437 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:44:21-0300 lvl=warn msg="failed to open private leg" id=d3f81b07ad2a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:44:56-0300 lvl=warn msg="failed to open private leg" id=4bd3cd0b0e94 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:45:00-0300 lvl=warn msg="failed to open private leg" id=3473ad6f9cfd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:45:07-0300 lvl=warn msg="failed to open private leg" id=de1ae9ea9880 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:45:15-0300 lvl=warn msg="failed to open private leg" id=d71d0e6a8d7b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:45:29-0300 lvl=warn msg="failed to open private leg" id=0c2c527b8091 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:45:53-0300 lvl=warn msg="failed to open private leg" id=603a0194de08 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:06-0300 lvl=warn msg="failed to open private leg" id=b4fbd6598e5c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:14-0300 lvl=warn msg="failed to open private leg" id=d06cac6db47a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:27-0300 lvl=warn msg="failed to open private leg" id=60fd6489d1b3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:27-0300 lvl=warn msg="failed to open private leg" id=367fe7db18b7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:30-0300 lvl=warn msg="failed to open private leg" id=a86d5e1670d2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:39-0300 lvl=warn msg="failed to open private leg" id=29d1702f7673 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:39-0300 lvl=warn msg="failed to open private leg" id=539df7deb62c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:40-0300 lvl=warn msg="failed to open private leg" id=63bb3e000262 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:42-0300 lvl=warn msg="failed to open private leg" id=1b0c4e5b199e privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:51-0300 lvl=warn msg="failed to open private leg" id=e5afd7ab21ef privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:59-0300 lvl=warn msg="failed to open private leg" id=1d3cb58bfe5b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:46:59-0300 lvl=warn msg="failed to open private leg" id=6c639dde186e privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:47:01-0300 lvl=warn msg="failed to open private leg" id=e5bc81117056 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:47:02-0300 lvl=warn msg="failed to open private leg" id=3cf7cef472fd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:47:32-0300 lvl=warn msg="failed to open private leg" id=551dd48d8abf privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:47:40-0300 lvl=warn msg="failed to open private leg" id=6996db320bf6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:47:44-0300 lvl=warn msg="failed to open private leg" id=c6db33cda9ce privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:47:53-0300 lvl=warn msg="failed to open private leg" id=0a6a7b31dce9 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:48:00-0300 lvl=warn msg="failed to open private leg" id=f019a4926425 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:48:01-0300 lvl=warn msg="failed to open private leg" id=e83527abe79a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:48:10-0300 lvl=warn msg="failed to open private leg" id=c3382c6988f5 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:48:51-0300 lvl=warn msg="failed to open private leg" id=d4d5765a7856 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:01-0300 lvl=warn msg="failed to open private leg" id=cf3865b7e8a3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:06-0300 lvl=warn msg="failed to open private leg" id=af9866efbd8a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:10-0300 lvl=warn msg="failed to open private leg" id=c025638b90f1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:17-0300 lvl=warn msg="failed to open private leg" id=d30f7af85e1a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:18-0300 lvl=warn msg="failed to open private leg" id=fb1c8eb282bd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:30-0300 lvl=warn msg="failed to open private leg" id=5bf2ed47f66c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:38-0300 lvl=warn msg="failed to open private leg" id=36984a828aa1 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:39-0300 lvl=warn msg="failed to open private leg" id=eadd72263aa4 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:45-0300 lvl=warn msg="failed to open private leg" id=03bda94cde2d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:46-0300 lvl=warn msg="failed to open private leg" id=3b314fad1e27 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:49:57-0300 lvl=warn msg="failed to open private leg" id=336f21533e59 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:01-0300 lvl=warn msg="failed to open private leg" id=c4ef9a5e63e6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:02-0300 lvl=warn msg="failed to open private leg" id=2dc6a81b5351 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:04-0300 lvl=warn msg="failed to open private leg" id=f4f81e8064be privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:11-0300 lvl=warn msg="failed to open private leg" id=ad3ce59f7ee8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:12-0300 lvl=warn msg="failed to open private leg" id=2860141182a8 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:14-0300 lvl=warn msg="failed to open private leg" id=19cac572f034 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:53-0300 lvl=warn msg="failed to open private leg" id=86a443cffe3d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:53-0300 lvl=warn msg="failed to open private leg" id=ac0fa70ea25d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:50:58-0300 lvl=warn msg="failed to open private leg" id=4dc7766d0378 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:01-0300 lvl=warn msg="failed to open private leg" id=2a5fddd460bc privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:04-0300 lvl=warn msg="failed to open private leg" id=18bf99675673 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:08-0300 lvl=warn msg="failed to open private leg" id=f6e95cf9f6ef privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:10-0300 lvl=warn msg="failed to open private leg" id=45f530a0dcda privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:20-0300 lvl=warn msg="failed to open private leg" id=0d680a444932 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:24-0300 lvl=warn msg="failed to open private leg" id=a6b9df2d03da privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:26-0300 lvl=warn msg="failed to open private leg" id=9b3156909e0a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:36-0300 lvl=warn msg="failed to open private leg" id=72bb649614cd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:46-0300 lvl=warn msg="failed to open private leg" id=385b5fc08576 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:56-0300 lvl=warn msg="failed to open private leg" id=a8e7d85496b7 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:51:57-0300 lvl=warn msg="failed to open private leg" id=667ce6725181 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:53:59-0300 lvl=warn msg="failed to open private leg" id=4048caf4be6c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:54:03-0300 lvl=warn msg="failed to open private leg" id=21c3173abddd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:54:05-0300 lvl=warn msg="failed to open private leg" id=c5ade0ae5437 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:54:09-0300 lvl=warn msg="failed to open private leg" id=858fbd628138 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:54:12-0300 lvl=warn msg="failed to open private leg" id=76192c21b64d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:54:27-0300 lvl=warn msg="failed to open private leg" id=1f14436afa8b privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:56:51-0300 lvl=warn msg="failed to open private leg" id=4a99c3f242c4 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:56:54-0300 lvl=warn msg="failed to open private leg" id=39c3fe5b5f2a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:57:07-0300 lvl=warn msg="failed to open private leg" id=13ff05498cff privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:57:10-0300 lvl=warn msg="failed to open private leg" id=01135a593a43 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T21:58:43-0300 lvl=warn msg="failed to open private leg" id=55a3b0e4499a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:07:57-0300 lvl=warn msg="failed to open private leg" id=7876b5d6bcde privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:08:01-0300 lvl=warn msg="failed to open private leg" id=0b2f0ae42561 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:17:10-0300 lvl=warn msg="failed to open private leg" id=e026c97486b5 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:33:48-0300 lvl=warn msg="failed to open private leg" id=15ab8ab82ff6 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:33:51-0300 lvl=warn msg="failed to open private leg" id=24a21437282c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:34:08-0300 lvl=warn msg="failed to open private leg" id=d34fa7dcbbf2 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:34:19-0300 lvl=warn msg="failed to open private leg" id=ec7ba0f27d52 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:34:24-0300 lvl=warn msg="failed to open private leg" id=9711a7924eec privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:36:28-0300 lvl=warn msg="failed to open private leg" id=b70980e29244 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:36:38-0300 lvl=warn msg="failed to open private leg" id=90764b6de594 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:36:40-0300 lvl=warn msg="failed to open private leg" id=39d48ec48890 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:36:41-0300 lvl=warn msg="failed to open private leg" id=1eb6d954f0ca privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:36:53-0300 lvl=warn msg="failed to open private leg" id=d217fd8494f4 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:40:28-0300 lvl=warn msg="failed to open private leg" id=3ad436112d06 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:40:29-0300 lvl=warn msg="failed to open private leg" id=2e82984d547a privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-03T22:43:46-0300 lvl=warn msg="failed to open private leg" id=63cab0f29cd3 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T03:29:53-0300 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=8de1a853e346 clientid=d3f4b31c2ae0e004986a8e42ec74f1b8
+t=2024-07-04T03:29:53-0300 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=96778e1cc338 err="session closed"
+t=2024-07-04T03:30:03-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2024-07-04T03:30:04-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+t=2024-07-04T03:30:15-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2024-07-04T03:30:27-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2024-07-04T03:30:41-0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+t=2024-07-04T03:30:50-0300 lvl=info msg="client session established" obj=tunnels.session
+t=2024-07-04T03:30:50-0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-07-04T08:01:56-0300 lvl=warn msg="failed to open private leg" id=2b61d2e1e557 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:02:00-0300 lvl=warn msg="failed to open private leg" id=5b166d12df35 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:02:04-0300 lvl=warn msg="failed to open private leg" id=f7bc6a190297 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:02:08-0300 lvl=warn msg="failed to open private leg" id=a23e79ddd59c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:02:21-0300 lvl=warn msg="failed to open private leg" id=7921e5bf65cb privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:06:13-0300 lvl=warn msg="failed to open private leg" id=262c13d2f1d5 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:06:14-0300 lvl=warn msg="failed to open private leg" id=a23c6809e69d privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:06:33-0300 lvl=warn msg="failed to open private leg" id=2e45b7654919 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:06:37-0300 lvl=warn msg="failed to open private leg" id=87d5524245a9 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:06:53-0300 lvl=warn msg="failed to open private leg" id=48d9da717753 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:08:01-0300 lvl=warn msg="failed to open private leg" id=edf9a07679cb privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:08:03-0300 lvl=warn msg="failed to open private leg" id=d26dc40e09be privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:08:12-0300 lvl=warn msg="failed to open private leg" id=193e0e1ec068 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:19:46-0300 lvl=warn msg="failed to open private leg" id=2ba153a1e03e privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:19:48-0300 lvl=warn msg="failed to open private leg" id=59ec85b66ce4 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:20:39-0300 lvl=warn msg="failed to open private leg" id=4af27bbf4003 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:21:31-0300 lvl=warn msg="failed to open private leg" id=86019d90f869 privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:21:34-0300 lvl=warn msg="failed to open private leg" id=481543308d0c privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:26:14-0300 lvl=warn msg="failed to open private leg" id=30a44f87dadd privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:33:11-0300 lvl=warn msg="failed to open private leg" id=35c68f7f0d8f privaddr=localhost:8000 err="dial tcp [::1]:8000: connectex: No connection could be made because the target machine actively refused it."
+t=2024-07-04T08:43:25-0300 lvl=info msg="join connections" obj=join id=37bd864bae1e l=[::1]:8000 r=189.38.98.141:18561
+t=2024-07-04T08:44:09-0300 lvl=info msg="join connections" obj=join id=c066ca40836b l=[::1]:8000 r=189.38.98.141:54864
+t=2024-07-04T08:45:29-0300 lvl=info msg="join connections" obj=join id=9a46ea69195d l=[::1]:8000 r=189.38.98.141:5643
+t=2024-07-04T08:45:46-0300 lvl=info msg="join connections" obj=join id=b42da1ca3830 l=[::1]:8000 r=189.38.98.141:17143
+t=2024-07-04T09:55:07-0300 lvl=info msg="join connections" obj=join id=ddf68eba76a5 l=[::1]:8000 r=189.38.98.141:62751
+t=2024-07-04T10:03:19-0300 lvl=info msg="join connections" obj=join id=caf13e2b1bc6 l=[::1]:8000 r=189.38.98.141:40219
+t=2024-07-04T10:05:13-0300 lvl=info msg="join connections" obj=join id=f8a48219ce9e l=[::1]:8000 r=189.38.98.141:28914
+t=2024-07-04T10:06:06-0300 lvl=info msg="join connections" obj=join id=ed224f604d27 l=[::1]:8000 r=189.38.98.141:25344
+t=2024-07-04T10:10:02-0300 lvl=info msg="join connections" obj=join id=d7bdbae2a643 l=[::1]:8000 r=189.38.98.141:25344
+t=2024-07-04T10:11:13-0300 lvl=info msg="join connections" obj=join id=8033c2cf8725 l=[::1]:8000 r=189.38.98.141:2232
+t=2024-07-04T10:15:34-0300 lvl=info msg="join connections" obj=join id=06551c219ec1 l=[::1]:8000 r=189.38.98.141:1394
+t=2024-07-04T10:16:12-0300 lvl=info msg="join connections" obj=join id=ce93008d689e l=[::1]:8000 r=189.38.98.141:14226
+t=2024-07-04T10:17:40-0300 lvl=info msg="join connections" obj=join id=a6d3776a9116 l=[::1]:8000 r=189.38.98.141:18925
+t=2024-07-04T10:17:57-0300 lvl=info msg="join connections" obj=join id=e47af5d2a651 l=[::1]:8000 r=189.38.98.141:44205
+t=2024-07-04T10:19:03-0300 lvl=info msg="join connections" obj=join id=ec7c96bda2f2 l=[::1]:8000 r=189.38.98.141:25344
+t=2024-07-04T10:24:28-0300 lvl=info msg="join connections" obj=join id=89b6695742af l=[::1]:8000 r=189.38.98.141:37440
+t=2024-07-04T10:24:49-0300 lvl=info msg="join connections" obj=join id=618d4425fc5e l=[::1]:8000 r=189.38.98.141:4425
+t=2024-07-04T10:30:26-0300 lvl=info msg="join connections" obj=join id=4e2a7a89f933 l=[::1]:8000 r=189.38.98.141:61549
+t=2024-07-04T10:31:37-0300 lvl=info msg="join connections" obj=join id=70c60a600249 l=[::1]:8000 r=189.38.98.141:34276
+t=2024-07-04T10:31:52-0300 lvl=info msg=start pg=/grpc/agent.Web/Clear id=bffda24aa99a6ba3
+t=2024-07-04T10:31:52-0300 lvl=info msg=end pg=/grpc/agent.Web/Clear id=bffda24aa99a6ba3 status=200 dur=31.6346ms
+t=2024-07-04T10:32:06-0300 lvl=info msg="join connections" obj=join id=d1bb166d1d52 l=[::1]:8000 r=189.38.98.141:43526
+t=2024-07-04T10:32:24-0300 lvl=info msg=start pg=/grpc/agent.Web/Clear id=90da91501bb44a16
+t=2024-07-04T10:32:24-0300 lvl=info msg=end pg=/grpc/agent.Web/Clear id=90da91501bb44a16 status=200 dur=5.1767ms
+t=2024-07-04T10:32:45-0300 lvl=info msg="join connections" obj=join id=9f792168cd87 l=[::1]:8000 r=189.38.98.141:50499
+t=2024-07-04T10:33:46-0300 lvl=info msg="Got quit command" obj=consoleui
+t=2024-07-04T10:33:46-0300 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2024-07-04T10:33:46-0300 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2024-07-04T10:33:46-0300 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=96778e1cc338 err="reconnecting session closed"
+t=2024-07-04T10:33:46-0300 lvl=info msg="no more state changes" obj=tunnels.session
